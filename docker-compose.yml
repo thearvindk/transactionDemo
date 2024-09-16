@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  transactiondemo:
+    image: transactiondemo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8090:8090
