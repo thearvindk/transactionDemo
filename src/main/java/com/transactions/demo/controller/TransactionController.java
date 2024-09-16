@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 @RequestMapping("/Calories")
-@CrossOrigin(origins= {"http://65.1.3.184","http://localhost:3000"})
+@CrossOrigin(origins= {"http://65.1.3.184","http://localhost:3000","65.1.92.27"})
 public class TransactionController {
 
     private List<Transaction> transactions = new ArrayList<>();
