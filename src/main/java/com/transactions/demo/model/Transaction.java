@@ -1,40 +1,42 @@
 package com.transactions.demo.model;
 
 public class Transaction {
-	 private Long id;
-	    private String description;
-	    private Double count;
 
-	    // Constructors, getters, and setters
-	    public Transaction() {}
+    private Long id;
+    private String description;
+    private Double count;
 
-	    public Transaction(Long id, String description, Double count) {
-	        this.id = id;
-	        this.description = description;
-	        this.count = count;
-	    }
+    // Constructors
+    public Transaction() {}
 
-	    public Long getId() {
-	        return id;
-	    }
+    public Transaction(Long id, String description, Double count) {
+        this.id = id;
+        this.description = description;
+        this.count = count;
+    }
 
-	    public void setId(Long id) {
-	        this.id = id;
-	    }
+    // Getters and setters
+    public Long getId() {
+        return id;
+    }
 
-	    public String getDescription() {
-	        return description;
-	    }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	    public void setDescription(String description) {
-	        this.description = description;
-	    }
+    public String getDescription() {
+        return description;
+    }
 
-	    public Double getCount() {
-	        return count;
-	    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-	    public void setCount(Double count) {
-	        this.count = count;
-	    }
+    public Double getCount() {
+        return count;
+    }
+
+    public void setCount(Double count) {
+        this.count = count;
+    }
 }
